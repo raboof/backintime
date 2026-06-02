@@ -649,8 +649,8 @@ You have three options to fix this:
 
 ## How does the 'Repeatedly (anacron)' schedule work?
 
-In fact *Back In Time* doesn't use anacron anymore. It was to inflexible. But that
-schedule mimics anacron.
+In fact *Back In Time* doesn't use anacron anymore. It was too inflexible.
+But that schedule mimics anacron.
 
 BIT will create a crontab entry which will start ``backintime --backup-job``
 every 15min (or once an hour if the schedule is set to *weeks*). With the
